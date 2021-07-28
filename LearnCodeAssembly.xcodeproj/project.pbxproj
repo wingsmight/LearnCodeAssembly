@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		2279D00E2554CE0C00903C9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2279D00D2554CE0C00903C9A /* AppDelegate.swift */; };
 		2279D0102554CE0C00903C9A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2279D00F2554CE0C00903C9A /* SceneDelegate.swift */; };
-		2279D0122554CE0C00903C9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2279D0112554CE0C00903C9A /* ContentView.swift */; };
+		2279D0122554CE0C00903C9A /* CodeEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2279D0112554CE0C00903C9A /* CodeEditorView.swift */; };
 		2279D0142554CE0E00903C9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2279D0132554CE0E00903C9A /* Assets.xcassets */; };
 		2279D0172554CE0E00903C9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2279D0162554CE0E00903C9A /* Preview Assets.xcassets */; };
 		2279D01A2554CE0E00903C9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2279D0182554CE0E00903C9A /* LaunchScreen.storyboard */; };
 		2279D0252554CE0E00903C9A /* LearnCodeAssemblyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2279D0242554CE0E00903C9A /* LearnCodeAssemblyTests.swift */; };
 		2279D0302554CE0E00903C9A /* LearnCodeAssemblyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2279D02F2554CE0E00903C9A /* LearnCodeAssemblyUITests.swift */; };
+		CE5E845326AEA72A00BF1F61 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5E845226AEA72A00BF1F61 /* CircleImage.swift */; };
+		CE692E6226B15EF300570ECD /* SourceCodeFileListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE692E6126B15EF200570ECD /* SourceCodeFileListView.swift */; };
+		CEFED00726B1012C0079A5D0 /* SourceCodeFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFED00626B1012C0079A5D0 /* SourceCodeFile.swift */; };
+		CEFED00926B1021C0079A5D0 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFED00826B1021C0079A5D0 /* ModelData.swift */; };
+		CEFED00E26B1040F0079A5D0 /* sourceCodeFiles.json in Resources */ = {isa = PBXBuildFile; fileRef = CEFED00D26B1040F0079A5D0 /* sourceCodeFiles.json */; };
+		CEFED01026B107560079A5D0 /* SourceCodeFileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFED00F26B107560079A5D0 /* SourceCodeFileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +44,7 @@
 		2279D00A2554CE0C00903C9A /* LearnCodeAssembly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnCodeAssembly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2279D00D2554CE0C00903C9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2279D00F2554CE0C00903C9A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2279D0112554CE0C00903C9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2279D0112554CE0C00903C9A /* CodeEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeEditorView.swift; sourceTree = "<group>"; };
 		2279D0132554CE0E00903C9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2279D0162554CE0E00903C9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2279D0192554CE0E00903C9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		2279D02B2554CE0E00903C9A /* LearnCodeAssemblyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnCodeAssemblyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2279D02F2554CE0E00903C9A /* LearnCodeAssemblyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnCodeAssemblyUITests.swift; sourceTree = "<group>"; };
 		2279D0312554CE0E00903C9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5E845226AEA72A00BF1F61 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		CE692E6126B15EF200570ECD /* SourceCodeFileListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceCodeFileListView.swift; sourceTree = "<group>"; };
+		CEFED00626B1012C0079A5D0 /* SourceCodeFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceCodeFile.swift; sourceTree = "<group>"; };
+		CEFED00826B1021C0079A5D0 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		CEFED00D26B1040F0079A5D0 /* sourceCodeFiles.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sourceCodeFiles.json; sourceTree = "<group>"; };
+		CEFED00F26B107560079A5D0 /* SourceCodeFileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SourceCodeFileView.swift; path = LearnCodeAssembly/Resources/SourceCodeFileView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +111,15 @@
 		2279D00C2554CE0C00903C9A /* LearnCodeAssembly */ = {
 			isa = PBXGroup;
 			children = (
+				CEFED00C26B103DE0079A5D0 /* Resources */,
 				2279D00D2554CE0C00903C9A /* AppDelegate.swift */,
 				2279D00F2554CE0C00903C9A /* SceneDelegate.swift */,
-				2279D0112554CE0C00903C9A /* ContentView.swift */,
+				CEFED00B26B103C20079A5D0 /* Views */,
 				2279D0132554CE0E00903C9A /* Assets.xcassets */,
 				2279D0182554CE0E00903C9A /* LaunchScreen.storyboard */,
 				2279D01B2554CE0E00903C9A /* Info.plist */,
 				2279D0152554CE0E00903C9A /* Preview Content */,
+				CEFED00A26B103980079A5D0 /* Data */,
 			);
 			path = LearnCodeAssembly;
 			sourceTree = "<group>";
@@ -134,6 +148,34 @@
 				2279D0312554CE0E00903C9A /* Info.plist */,
 			);
 			path = LearnCodeAssemblyUITests;
+			sourceTree = "<group>";
+		};
+		CEFED00A26B103980079A5D0 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CEFED00626B1012C0079A5D0 /* SourceCodeFile.swift */,
+				CEFED00826B1021C0079A5D0 /* ModelData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		CEFED00B26B103C20079A5D0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEFED00F26B107560079A5D0 /* SourceCodeFileView.swift */,
+				CE692E6126B15EF200570ECD /* SourceCodeFileListView.swift */,
+				2279D0112554CE0C00903C9A /* CodeEditorView.swift */,
+				CE5E845226AEA72A00BF1F61 /* CircleImage.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CEFED00C26B103DE0079A5D0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEFED00D26B1040F0079A5D0 /* sourceCodeFiles.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +285,7 @@
 				2279D01A2554CE0E00903C9A /* LaunchScreen.storyboard in Resources */,
 				2279D0172554CE0E00903C9A /* Preview Assets.xcassets in Resources */,
 				2279D0142554CE0E00903C9A /* Assets.xcassets in Resources */,
+				CEFED00E26B1040F0079A5D0 /* sourceCodeFiles.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,9 +310,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEFED00726B1012C0079A5D0 /* SourceCodeFile.swift in Sources */,
+				CE692E6226B15EF300570ECD /* SourceCodeFileListView.swift in Sources */,
 				2279D00E2554CE0C00903C9A /* AppDelegate.swift in Sources */,
+				CEFED01026B107560079A5D0 /* SourceCodeFileView.swift in Sources */,
 				2279D0102554CE0C00903C9A /* SceneDelegate.swift in Sources */,
-				2279D0122554CE0C00903C9A /* ContentView.swift in Sources */,
+				2279D0122554CE0C00903C9A /* CodeEditorView.swift in Sources */,
+				CE5E845326AEA72A00BF1F61 /* CircleImage.swift in Sources */,
+				CEFED00926B1021C0079A5D0 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +482,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"LearnCodeAssembly/Preview Content\"";
 				DEVELOPMENT_TEAM = D86YAFJU4P;
@@ -445,6 +494,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wingsmight.LearnCodeAssembly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,7 +504,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"LearnCodeAssembly/Preview Content\"";
@@ -467,6 +517,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wingsmight.LearnCodeAssembly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
