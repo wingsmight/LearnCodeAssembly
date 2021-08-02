@@ -47,6 +47,7 @@ struct CodeEditor: View {
             }
             Spacer()
         }
+        .navigationBarBackButtonHidden(true)
     }
 }
 
